@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  position: relative;
+  font: normal 400 4rem/4.5rem 'Passion One', cursive;
+  background: #FFB5A7;
+  background: radial-gradient(at center, #FFB5A7, #FCD5CE, #F8EDEB, #F9DCC4, #FEC89A);
+}
+
+body main section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8rem 3rem 3rem;
+}
+
+body main section .link {
+  position: fixed;
+  top: 3rem;
+  z-index: 1000;
+}
+
+body main section .link#email {
+  left: 3rem;
+}
+
+body main section .link#git {
+  left: 8rem;
+}
+
+body main section .link#linkedin {
+  left: 13rem;
+}
+
+body main section .link img {
+  height: 3rem;
+}
+/*# sourceMappingURL=styles.css.map */

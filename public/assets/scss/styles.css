@@ -11,34 +11,52 @@
 
 body {
   position: relative;
-  font: normal 400 4rem/4.5rem 'Passion One', cursive;
+  font: normal 400 6.75vh/110% 'Passion One', cursive;
   background: #FFB5A7;
   background: radial-gradient(at center, #FFB5A7, #FCD5CE, #F8EDEB, #F9DCC4, #FEC89A);
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 5.75vh;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 4.75vh;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 4.5vh;
+  }
 }
 
 body main section {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 8rem 3rem 3rem;
+  padding: calc(6vw + 3rem) 3vw 3vw;
 }
 
 body main section .link {
   position: fixed;
-  top: 3rem;
+  top: 3vw;
   z-index: 1000;
 }
 
 body main section .link#email {
-  left: 3rem;
+  left: 3vw;
 }
 
 body main section .link#git {
-  left: 8rem;
+  left: calc(6vw + 3rem);
 }
 
 body main section .link#linkedin {
-  left: 13rem;
+  left: calc(9vw + 6rem);
 }
 
 body main section .link img {

@@ -9,6 +9,10 @@
   user-select: none;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   position: relative;
   font: normal 400 6.75vh/110% 'Passion One', cursive;

@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+window.addEventListener('load', function () {
   var vector = new Two.Vector();
   var entities = [];
   var mouse;
